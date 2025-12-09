@@ -203,7 +203,7 @@ python data_cleaning_analysis.py
 - Data governance and metadata management
 
 
-## ðŸ“š Resources & Data Sources
+## Resources & Data Sources
 
 **Project 2: Data Cleaning & Visualization**
 - **Primary Source:** [Google Analytics Public Dataset](https://console.cloud.google.com/marketplace/product/obreserved/ga-pub)
