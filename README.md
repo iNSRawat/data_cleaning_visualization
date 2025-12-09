@@ -28,28 +28,28 @@ This repository contains the Data Cleaning & Visualization project (Google Analy
 
 ```
 02_Data_Cleaning_Visualization/
-â”‚
-â”œâ”€â”€ README.md                          # Project documentation
-â”œâ”€â”€ data_cleaning_analysis.py          # Main Python cleaning pipeline
-â”œâ”€â”€ data_cleaning_analysis.ipynb       # Jupyter notebook for interactive analysis
-â”œâ”€â”€ requirements.txt                   # Python dependencies
-â”œâ”€â”€ .gitignore                         # Git ignore rules
-â”‚
-â”œâ”€â”€ data/
-â”‚   â”œâ”€â”€ raw/
-â”‚   â”‚   â””â”€â”€ google_analytics_export.csv    # Raw data file (85 MB)
-â”‚   â”‚
-â”‚   â””â”€â”€ processed/
-â”‚       â”œâ”€â”€ cleaned_data.csv                # Cleaned and transformed dataset
-â”‚       â””â”€â”€ data_quality_report.csv         # Automated quality metrics report
-â”‚
-â””â”€â”€ outputs/
-    â”œâ”€â”€ dashboards/
-    â”‚   â”œâ”€â”€ README.md                       # Dashboard documentation
-    â”‚   â””â”€â”€ analytics_dashboard.twbx        # Tableau dashboard (to be created)
-    â”‚
-    â””â”€â”€ sql_queries/
-        â””â”€â”€ analysis_queries.sql            # SQL analysis queries (10 queries)
+│
+├── README.md                          # Project documentation
+├── data_cleaning_analysis.py          # Main Python cleaning pipeline
+├── data_cleaning_analysis.ipynb       # Jupyter notebook for interactive analysis
+├── requirements.txt                   # Python dependencies
+├── .gitignore                         # Git ignore rules
+│
+├── data/
+│   ├── raw/
+│   │   └── google_analytics_export.csv    # Raw data file (85 MB)
+│   │
+│   └── processed/
+│       ├── cleaned_data.csv                # Cleaned and transformed dataset
+│       └── data_quality_report.csv         # Automated quality metrics report
+│
+└── outputs/
+    ├── dashboards/
+    │   ├── README.md                       # Dashboard documentation
+    │   └── analytics_dashboard.twbx        # Tableau dashboard (to be created)
+    │
+    └── sql_queries/
+        └── analysis_queries.sql            # SQL analysis queries (10 queries)
 ```
 ## Key Achievements
 
