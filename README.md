@@ -3,6 +3,7 @@
 [<img src="https://www.kaggle.com/static/images/site-logo.svg" alt="Kaggle" height="28"/>](https://www.kaggle.com/code/nsrawat/google-analytics-data-cleaning-visualization)
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1BNPhoNdDx_3hB8yHj7PBjbL8XgyCs3qF?usp=sharing)
+
 Professional data wrangling & business intelligence project. Cleans and visualizes 150,000+ Google Analytics user session events with 99%+ data accuracy.
 
 ## Project Overview
