@@ -227,7 +227,7 @@ st.markdown("---")
 st.markdown(
     """
     <div style='text-align: center;'>
-        <p>Made with ❤️ by <a href="https://nsrawat.in" target="_blank" style="text-decoration: none; color: #1f77b4;">N S Rawat</a></p>
+        <p>Made with ❤️ by <a href="https://nsrawat.in" target="_blank" style="text-decoration: underline; color: #1f77b4;">N S Rawat</a></p>
     </div>
     """,
     unsafe_allow_html=True
