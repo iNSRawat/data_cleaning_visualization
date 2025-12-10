@@ -197,7 +197,7 @@ elif page == "Quality Report":
         with col3:
             st.metric("❌ Failed", failed)
 
-# Footer
+# Footer - Always visible at the bottom
 st.markdown("---")
 
 # Donation Section
@@ -206,8 +206,10 @@ col1, col2 = st.columns(2)
 with col1:
     st.markdown(
         """
-        <a href="https://www.buymeacoffee.com/nsrawat" target="_blank">
-            <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" style="width: 200px;">
+        <a href="https://www.buymeacoffee.com/nsrawat" target="_blank" style="text-decoration: none;">
+            <div style="background-color: #FFDD00; color: black; border: none; padding: 12px 24px; border-radius: 5px; font-size: 16px; font-weight: bold; cursor: pointer; text-align: center; display: inline-block; width: 100%;">
+                ☕ Buy Me a Coffee
+            </div>
         </a>
         """,
         unsafe_allow_html=True
@@ -215,8 +217,10 @@ with col1:
 with col2:
     st.markdown(
         """
-        <a href="https://paypal.me/nsrawat" target="_blank">
-            <img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="PayPal" style="width: 200px;">
+        <a href="https://paypal.me/nsrawat" target="_blank" style="text-decoration: none;">
+            <div style="background-color: #00457C; color: white; border: none; padding: 12px 24px; border-radius: 5px; font-size: 16px; font-weight: bold; cursor: pointer; text-align: center; display: inline-block; width: 100%;">
+                💳 PayPal
+            </div>
         </a>
         """,
         unsafe_allow_html=True
@@ -226,8 +230,8 @@ with col2:
 st.markdown("---")
 st.markdown(
     """
-    <div style='text-align: center;'>
-        <p>Made with ❤️ by <a href="https://nsrawat.in" target="_blank" style="text-decoration: underline; color: #1f77b4;">N S Rawat</a></p>
+    <div style='text-align: center; padding: 20px 0;'>
+        <p style='margin: 0; font-size: 14px;'>Made with ❤️ by <a href="https://nsrawat.in" target="_blank" style="text-decoration: underline; color: #1f77b4;">N S Rawat</a></p>
     </div>
     """,
     unsafe_allow_html=True
