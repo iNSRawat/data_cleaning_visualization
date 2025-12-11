@@ -104,12 +104,12 @@ def render_footer():
             col1, col2 = st.columns(2)
             with col1:
                 st.markdown(
-                    '<a href="https://www.buymeacoffee.com/nsrawat" target="_blank" style="text-decoration: none;"><div style="background-color: #FFDD00; color: white; border: none; padding: 12px 24px; border-radius: 5px; font-size: 16px; font-weight: bold; cursor: pointer; text-align: center; display: inline-block; width: 100%;">☕ Buy Me a Coffee</div></a>',
+                    '<a href="https://www.buymeacoffee.com/nsrawat" target="_blank" style="text-decoration: none; color: white !important;"><div style="background-color: #FFDD00; color: white !important; border: none; padding: 12px 24px; border-radius: 5px; font-size: 16px; font-weight: bold; cursor: pointer; text-align: center; display: inline-block; width: 100%;">☕ Buy Me a Coffee</div></a>',
                     unsafe_allow_html=True
                 )
             with col2:
                 st.markdown(
-                    '<a href="https://paypal.me/NRawat710" target="_blank" style="text-decoration: none;"><div style="background-color: #00457C; color: white; border: none; padding: 12px 24px; border-radius: 5px; font-size: 16px; font-weight: bold; cursor: pointer; text-align: center; display: inline-block; width: 100%;">💳 PayPal</div></a>',
+                    '<a href="https://paypal.me/NRawat710" target="_blank" style="text-decoration: none; color: white !important;"><div style="background-color: #00457C; color: white !important; border: none; padding: 12px 24px; border-radius: 5px; font-size: 16px; font-weight: bold; cursor: pointer; text-align: center; display: inline-block; width: 100%;">💳 PayPal</div></a>',
                     unsafe_allow_html=True
                 )
             
